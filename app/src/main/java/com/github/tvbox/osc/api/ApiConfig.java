@@ -470,7 +470,7 @@ public class ApiConfig {
                                 putLiveHistory(url);
                                 // Overwrite with Live URL from Settings
                                 if (StringUtils.isBlank(liveURL)) {
-                                    Hawk.put(HawkConfig.LIVE_URL, url);
+                                    //Hawk.put(HawkConfig.LIVE_URL, url);
                                 } else {
                                     url = liveURL;
                                 }
